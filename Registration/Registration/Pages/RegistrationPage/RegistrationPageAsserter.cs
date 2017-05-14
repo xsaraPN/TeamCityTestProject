@@ -13,7 +13,7 @@ namespace Registration.Pages.RegistrationPage
 
         public static void AssertSuccessMessage(this RegistrationPage page, string text)
         {
-            Assert.IsTrue(page.SuccessMessage.Displayed);
+            Assert.IsTrue(page.SuccessMessage.Displayed, page.UnsuccessRegistrationMessage.Text);
             Assert.AreEqual(text, page.SuccessMessage.Text);
         }
 
@@ -89,7 +89,7 @@ namespace Registration.Pages.RegistrationPage
             for (int i = 0; i < page.SubTopMenus.Count; i++)
             {
                 Assert.IsTrue(page.SubTopMenus[i].Enabled);
-                StringAssert.Contains(SubMenuNames[i], page.SubTopMenus[i].Text);
+                StringAssert.Contains(SubMenuNames[i], page.SubTopMenus[i].GetAttribute("title"));
             }
         }
 

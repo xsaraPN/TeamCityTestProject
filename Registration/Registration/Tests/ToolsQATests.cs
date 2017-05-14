@@ -54,8 +54,7 @@ namespace Registration
         [Author("Петя Николова")]
 
         public void DroppableFirstTry()
-        {
-            this.driver = new ChromeDriver();
+        {            
             var droppablePage = new DroppablePage(this.driver);
 
             droppablePage.DragAndDrop();
@@ -69,13 +68,12 @@ namespace Registration
         [Author("Петя Николова")]
 
         public void ResizeFirstTry()
-        {
-            this.driver = new ChromeDriver();
-            var resizblePage = new ResizablePage(this.driver);
+        {            
+            var resizablePage = new ResizablePage(this.driver);
 
-            resizblePage.IncreaseWidthAndHeightBy(100);
+            resizablePage.IncreaseWidthAndHeightBy(100);
 
-            resizblePage.AssertAnimateNewSize(100, 100);
+            resizablePage.AssertNewSize(100, 100);
         }
 
         [Test]
@@ -96,7 +94,7 @@ namespace Registration
         {
             if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
             {
-                string filename = ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
+                string filename = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
                 if (File.Exists(filename))
                 {
                     File.Delete(filename);

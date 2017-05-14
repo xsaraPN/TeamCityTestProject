@@ -36,7 +36,7 @@ namespace Registration
         {
             if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
             {
-                string filename = ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
+                string filename = AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
                 if (File.Exists(filename))
                 {
                     File.Delete(filename);

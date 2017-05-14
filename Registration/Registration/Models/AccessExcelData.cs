@@ -45,7 +45,7 @@ namespace Registration.Models
             {
                 connection.Open();               
                 RegistrationUser regUser = new RegistrationUser();
-                if (keyNameHobby!=null)
+                if (keyNameHobby!="")
                 {                    
                     var hobby_query = string.Format("select * from [RegistrationForm_Hobby$] where Key = '{0}'", keyNameHobby);                    
                     OleDbDataAdapter oleDB = new OleDbDataAdapter(hobby_query, connection);                   

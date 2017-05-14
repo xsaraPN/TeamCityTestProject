@@ -37,7 +37,7 @@ namespace Registration
         {
             if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
             {
-                string filename = (ConfigurationManager.GetSection("path") as NameValueCollection).Get("Logs") + TestContext.CurrentContext.Test.Name + ".txt";
+                string filename = AppDomain.CurrentDomain.BaseDirectory + (ConfigurationManager.GetSection("path") as NameValueCollection).Get("Logs") + TestContext.CurrentContext.Test.Name + ".txt";
                 if (File.Exists(filename))
                 {
                     File.Delete(filename);
@@ -405,7 +405,7 @@ namespace Registration
             regPage.NavigateTo();
             regPage.Driver.Manage().Window.Maximize();
 
-            RegistrationUser user = AccessExcelData.GetTestDataRegUser("RegistrationWithoutHobby_MartialStatus", "RegistrationWithoutHobby_Hobby", "RegistrationWithoutHobby");
+            RegistrationUser user = AccessExcelData.GetTestDataRegUser("RegistrationWithoutHobby_MartialStatus", "", "RegistrationWithoutHobby");
 
             regPage.FillRegistrationForm(user);
             regPage.AssertHobbyErrorMessage("* This field is required");

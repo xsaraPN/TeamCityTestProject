@@ -197,7 +197,7 @@ namespace Registration.Pages.RegistrationPage
                 catch (Exception e)
                 {
                     this.log.Error("EXCEPTION LOGGING", e);
-                    throw new NoSuchElementException("Not found such element for error message");
+                    throw new NoSuchElementException($"Not found such element for success registration: {UnsuccessRegistrationMessage.Text}");
                 }
                 return this.Driver.FindElement(By.ClassName("piereg_message"));
             }
@@ -369,7 +369,7 @@ namespace Registration.Pages.RegistrationPage
                 catch (Exception e)
                 {
                     this.log.Error("EXCEPTION LOGGING", e);
-                    throw new NoSuchElementException("Not found such element for error message");
+                    throw new NoSuchElementException($"Not found such element for error message: {SuccessMessage.Text}");
                 }
                 return this.Driver.FindElement(By.XPath("//*[@id=\"post-49\"]/div/p"));
             }
@@ -407,7 +407,7 @@ namespace Registration.Pages.RegistrationPage
             {
                 try
                 {
-                    this.Wait.Until(ExpectedConditions.ElementExists(By.Id("menu-item-66")));
+                    this.Wait.Until(ExpectedConditions.ElementExists(By.ClassName("dropdown-menu")));
                 }
                 catch (Exception e)
                 {
@@ -441,24 +441,20 @@ namespace Registration.Pages.RegistrationPage
                     throw new NoSuchElementException("Not found such element RigthMenu");
                 }
 
-                List<IWebElement> RigthMenuElements = new List<IWebElement>();
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"nav_menu-6\"]/div[1]/h3")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-374\"]/a")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"nav_menu-3\"]/div[1]/h3")));
+                List<IWebElement> RigthMenuElements = new List<IWebElement>();                
+                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-374\"]/a")));                
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-140\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-141\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-143\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-142\"]/a")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-151\"]/a")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"nav_menu-2\"]/div[1]/h3")));
+                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-151\"]/a")));                
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-144\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-145\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-146\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-147\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-97\"]/a")));
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-98\"]/a")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-99\"]/a")));
-                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"nav_menu-4\"]/div[1]/h3")));
+                RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-99\"]/a")));                
                 RigthMenuElements.Add(this.Driver.FindElement(By.XPath("//*[@id=\"menu-item-148\"]/a")));
 
                 return RigthMenuElements;

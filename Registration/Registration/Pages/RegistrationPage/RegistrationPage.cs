@@ -29,7 +29,7 @@ namespace Registration.Pages.RegistrationPage
             Type(this.LastName, user.LastName);
              
             SelectBox(this.Driver, this.MartialStatus, user.MatrialStatus);
-            SelectBox(this.Driver, this.Hobby, user.Hobby);
+           // SelectBox(this.Driver, this.Hobby, user.Hobby);
             
             this.CountryOption.SelectByText(user.Country);
             this.MounthOption.SelectByText(user.BirthMonth);

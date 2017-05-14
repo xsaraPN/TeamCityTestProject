@@ -1,0 +1,358 @@
+2017-05-14 09:16:53,714 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-14 09:17:08,314 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-14 09:17:15,267 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 12 but was 0. Strings differ at index 0.
+  Expected: "Drag me down"
+  But was:  <string.Empty>
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 36
+2017-05-14 09:17:24,021 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-14 09:17:43,224 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:18:00,913 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:18:20,118 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:18:43,362 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:19:00,539 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:19:15,899 [Worker#STA_NP] INFO  Registration.DroppableTests - INFO LOGGING
+2017-05-14 09:19:31,580 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:19:43,372 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:19:53,734 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:20:20,117 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:20:32,702 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:20:44,069 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:21:05,383 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:21:25,681 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:22:01,023 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 09:22:05,114 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:22:24,900 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:22:34,273 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   The selected value 'single' is not set.
+  Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)
+   at Registration.Pages.RegistrationPage.RegistrationPage.SelectBox(IWebDriver driver, List`1 locator, Int32[] index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPage.cs:line 72
+2017-05-14 09:23:00,353 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[1]/div[1]/div[2]/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForNames() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 212
+2017-05-14 09:23:04,534 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:23:21,065 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:23:33,301 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   The selected value 'married' is not set.
+  Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)
+   at Registration.Pages.RegistrationPage.RegistrationPage.SelectBox(IWebDriver driver, List`1 locator, Int32[] index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPage.cs:line 72
+2017-05-14 09:23:43,620 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:24:04,319 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:24:29,940 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:24:54,929 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:25:18,258 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:25:32,920 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:26:06,173 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[8]/div/div/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForMail() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 248
+2017-05-14 09:26:09,141 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:26:25,446 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:26:40,646 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:26:56,579 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 09:27:13,815 [Worker#STA_NP] INFO  Registration.ResizableTests - INFO LOGGING
+2017-05-14 09:27:29,988 [Worker#STA_NP] INFO  Registration.ResizableTests - INFO LOGGING
+2017-05-14 09:27:43,778 [Worker#STA_NP] INFO  Registration.ResizableTests - INFO LOGGING
+2017-05-14 09:27:54,241 [Worker#STA_NP] INFO  Registration.ResizableTests - INFO LOGGING
+2017-05-14 09:28:07,032 [Worker#STA_NP] INFO  Registration.ResizableTests - INFO LOGGING
+2017-05-14 09:28:20,828 [Worker#STA_NP] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-14 09:28:37,577 [Worker#STA_NP] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-14 09:28:50,064 [Worker#STA_NP] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-14 09:29:02,489 [Worker#STA_NP] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-14 09:29:17,816 [Worker#STA_NP] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-14 09:29:32,395 [Worker#STA_NP] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-14 09:31:18,166 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition)
+   at Registration.Pages.ResizablePage.ResizablePageAsserter.AssertAnimateNewSize(ResizablePage page, Int32 pixelsToWidth, Int32 pixelsToHeight) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\ResizablePage\ResizablePageAsserter.cs:line 97
+2017-05-14 09:55:50,561 [14] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-14 09:58:58,534 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:18:27,953 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:22:23,469 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:29:35,220 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:31:06,142 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   at System.Net.ConnectStream.ProcessWriteCallDone(ConnectionReturnResult returnResult)
+   at System.Net.HttpWebRequest.WriteCallDone(ConnectStream stream, ConnectionReturnResult returnResult)
+   at System.Net.ConnectStream.CallDone(ConnectionReturnResult returnResult)
+   at System.Net.ConnectStream.ResubmitWrite(ConnectStream oldStream, Boolean suppressWrite)
+   at System.Net.HttpWebRequest.EndWriteHeaders_Part2()
+   at System.Net.HttpWebRequest.EndWriteHeaders(Boolean async)
+   at System.Net.HttpWebRequest.WriteHeadersCallback(WebExceptionStatus errorStatus, ConnectStream stream, Boolean async)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   at System.Net.HttpWebRequest.EndSubmitRequest()
+   at System.Net.HttpWebRequest.CheckDeferredCallDone(ConnectStream stream)
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_RightMenu() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 432
+2017-05-14 10:36:06,190 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:37:56,949 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:39:04,939 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:44:44,167 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:45:33,458 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:46:11,456 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 10:48:33,491 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:51:39,302 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:52:21,186 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 10:56:21,428 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 10:56:57,390 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 10:59:23,736 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:00:02,146 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 11:02:41,252 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:03:19,498 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"piereg_message"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+   at OpenQA.Selenium.By.<>c__DisplayClass12.<ClassName>b__10(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SuccessMessage() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 195
+2017-05-14 11:04:50,966 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:05:00,187 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   The selected value 'single' is not set.
+  Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)
+   at Registration.Pages.RegistrationPage.RegistrationPage.SelectBox(IWebDriver driver, List`1 locator, Int32[] index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPage.cs:line 72
+2017-05-14 11:05:26,030 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[1]/div[1]/div[2]/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForNames() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 212
+2017-05-14 11:07:05,129 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:20:10,033 [14] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:22:33,499 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 11:23:06,684 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[8]/div/div/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForMail() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 248
+2017-05-14 12:09:48,166 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 12:10:24,906 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[8]/div/div/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForMail() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 248
+2017-05-14 12:17:09,197 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-14 12:18:52,881 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pie_register"]/li[8]/div/div/span"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_ErrorMessagesForMail() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 248
+2017-05-14 12:21:17,343 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition)
+   at Registration.Pages.ResizablePage.ResizablePageAsserter.AssertAnimateNewSize(ResizablePage page, Int32 pixelsToWidth, Int32 pixelsToHeight) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\ResizablePage\ResizablePageAsserter.cs:line 97
+2017-05-14 12:30:44,768 [13] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
