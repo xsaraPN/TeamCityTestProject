@@ -1,0 +1,79 @@
+2017-05-13 00:41:43,790 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-13 00:41:51,028 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 12 but was 0. Strings differ at index 0.
+  Expected: "Drag me down"
+  But was:  <string.Empty>
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 36
+2017-05-13 00:43:49,857 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-13 00:45:34,684 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-13 00:46:26,987 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 36
+2017-05-13 00:48:19,918 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-13 00:50:41,920 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index)
+2017-05-13 00:51:11,851 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-13 00:53:04,674 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.get_Text()
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 36
+2017-05-13 00:54:48,138 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 00:59:20,830 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 01:01:22,448 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   at System.Net.ConnectStream.ProcessWriteCallDone(ConnectionReturnResult returnResult)
+   at System.Net.HttpWebRequest.WriteCallDone(ConnectStream stream, ConnectionReturnResult returnResult)
+   at System.Net.ConnectStream.CallDone(ConnectionReturnResult returnResult)
+   at System.Net.ConnectStream.ResubmitWrite(ConnectStream oldStream, Boolean suppressWrite)
+   at System.Net.HttpWebRequest.EndWriteHeaders_Part2()
+   at System.Net.HttpWebRequest.EndWriteHeaders(Boolean async)
+   at System.Net.HttpWebRequest.WriteHeadersCallback(WebExceptionStatus errorStatus, ConnectStream stream, Boolean async)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   at System.Net.HttpWebRequest.EndSubmitRequest()
+   at System.Net.HttpWebRequest.CheckDeferredCallDone(ConnectStream stream)
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass10.<ElementExists>b__f(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Registration.Pages.RegistrationPage.RegistrationPage.get_SubTopMenus() in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\RegistrationPage\RegistrationPageMap.cs:line 410
+2017-05-13 01:08:32,778 [12] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 01:12:08,489 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 17:41:31,476 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 17:43:24,263 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 17:45:57,506 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING
+2017-05-13 17:51:41,243 [Worker#STA_NP] INFO  Registration.RegistrationNegativeCases - INFO LOGGING

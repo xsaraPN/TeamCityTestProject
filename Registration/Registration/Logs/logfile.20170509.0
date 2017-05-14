@@ -1,0 +1,692 @@
+2017-05-09 00:10:23,725 [13] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:10:31,093 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: collection containing "Drag me down"
+  But was:  <empty>
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.Contains(Object expected, ICollection actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 32
+2017-05-09 00:12:24,499 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:12:31,111 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: collection containing "Drag me down"
+  But was:  <empty>
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.Contains(Object expected, ICollection actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 32
+2017-05-09 00:14:15,083 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:14:21,498 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: collection containing "Drag me down"
+  But was:  <empty>
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.Contains(Object expected, ICollection actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 32
+2017-05-09 00:19:33,212 [13] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:19:38,765 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: collection containing "Drag me down"
+  But was:  <empty>
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.Contains(Object expected, ICollection actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 32
+2017-05-09 00:22:32,200 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:22:39,190 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: collection containing "Drag me down"
+  But was:  <empty>
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.Contains(Object expected, ICollection actual)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 32
+2017-05-09 00:33:52,821 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:34:04,611 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//li[text()='Drag me down']"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 33
+2017-05-09 00:42:22,402 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 00:42:27,888 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//li[text()='Drag me down']"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 33
+2017-05-09 09:32:42,423 [13] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 09:32:53,807 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//li[text()='Drag me down']"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 33
+2017-05-09 10:06:17,139 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 10:06:51,745 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 10:07:11,069 [Worker#STA_NP] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//li[text()='Drag me down']"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebElement.FindElement(By by)
+   at Registration.Pages.DraggablePage.DraggablePageAsserter.AssertSort(DraggablePage page, String textValue, Int32 index) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\DraggablePage\DraggablePageAsserter.cs:line 33
+2017-05-09 10:07:19,036 [Worker#STA_NP] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 12:12:08,881 [14] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 12:12:20,424 [14] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"//*[@id="selectable"]/li[2]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertTargetAttributeValue(SelectablePage page, String classValue, Int32 indexFrom, Int32 IndexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 18
+2017-05-09 12:16:20,930 [14] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 12:16:29,981 [14] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"//*[@id="selectable"]/li[2]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertTargetAttributeValue(SelectablePage page, String classValue, String indexFrom, String IndexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 20
+2017-05-09 12:22:01,180 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 12:22:13,673 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"//*[@id="selectable"]/li[2]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertTargetAttributeValue(SelectablePage page, String classValue, String indexFrom, String IndexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 22
+2017-05-09 12:48:47,063 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 12:49:08,605 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"//*[@id="selectable"]/li[2]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass2.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertTargetAttributeValue(SelectablePage page, String classValue, Int32 indexFrom, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 23
+2017-05-09 12:51:28,179 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:19:14,303 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:20:42,632 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:25:01,945 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:27:39,618 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:35:01,623 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:38:00,536 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:41:07,312 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:44:12,910 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:47:31,701 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:55:58,931 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 13:58:16,745 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:01:16,537 [12] INFO  Registration.DraggableTests - INFO LOGGING
+2017-05-09 14:02:12,988 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:07:11,960 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:07:20,379 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="selectable"]/li[0]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 44
+2017-05-09 14:11:02,880 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:11:09,141 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable_grid > li:nth-child(0)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 44
+2017-05-09 14:19:47,476 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:21:13,208 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:21:35,912 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable_grid > li:nth-child(0)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 44
+2017-05-09 14:23:27,081 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:23:57,598 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable_grid > li:nth-child(0)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 44
+2017-05-09 14:26:42,507 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:26:57,847 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable_grid > li:nth-child(0)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 44
+2017-05-09 14:28:31,344 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:28:42,888 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable_grid > li:nth-child(0)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 43
+2017-05-09 14:30:50,431 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:31:15,663 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="selectable_grid"]/li[0]"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 43
+2017-05-09 14:35:10,331 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:35:36,023 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 46
+2017-05-09 14:37:20,578 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:37:38,176 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 46
+2017-05-09 14:40:57,376 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:44:55,896 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 14:45:03,050 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected: 0
+  But was:  1
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectDisplayGrid(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 50
+2017-05-09 14:47:55,026 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:07:43,639 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:09:13,043 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:09:24,205 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:11:01,340 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:11:23,718 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:13:25,873 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:13:33,663 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:19:31,007 [14] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:19:44,075 [14] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:22:43,602 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:22:53,814 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:24:32,690 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:24:43,827 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:25:43,216 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:25:50,706 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:32:48,523 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:33:16,354 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:34:41,683 [13] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:34:54,577 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 15:54:54,020 [12] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 15:55:14,392 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectable-serialize > li:nth-child(7)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SelectablePage.SelectablePageAsserter.AssertSelectSerialized(SelectablePage page, String classValue, String indexes) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SelectablePage\SelectablePageAsserter.cs:line 71
+2017-05-09 16:05:08,492 [14] INFO  Registration.SelectableTests - INFO LOGGING
+2017-05-09 16:21:36,505 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:21:47,399 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#sortable > li:nth-child(5)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertTargetAttributeValue(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 17
+2017-05-09 16:23:48,564 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:23:59,127 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#sortable > li:nth-child(5)"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at OpenQA.Selenium.By.<>c__DisplayClass1e.<CssSelector>b__1c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 17
+2017-05-09 16:27:39,820 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:27:46,192 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:31:30,149 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:31:38,578 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:33:28,834 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:33:34,466 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:34:39,567 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:34:45,534 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:36:29,396 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:36:34,648 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:39:05,387 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:39:12,903 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:44:34,833 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:44:43,507 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:46:37,424 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:46:47,403 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:48:16,646 [13] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:48:37,222 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 5"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:56:24,352 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:56:43,588 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 16:58:56,199 [14] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 16:59:08,093 [14] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 17:02:55,053 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 17:03:00,123 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 17:05:21,008 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 17:05:34,010 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:08:52,212 [13] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:08:59,958 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:13:23,824 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:13:30,235 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:14:29,222 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:14:35,773 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:16:52,380 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:17:03,048 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:21:13,112 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:21:18,510 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:25:06,545 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:25:15,356 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:27:36,233 [13] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:27:43,724 [13] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18
+2017-05-09 20:35:29,490 [12] INFO  Registration.SortableTests - INFO LOGGING
+2017-05-09 20:35:35,477 [12] ERROR Registration.Pages.BasePage - EXCEPTION LOGGING
+NUnit.Framework.AssertionException:   Expected string length 5 but was 6. Strings differ at index 4.
+  Expected: "Item2"
+  But was:  "Item 4"
+  ---------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Registration.Pages.SortablePage.SortablePageAsserter.AssertSortableChecks(SortablePage page, String text, Int32 indexTo) in C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\Pages\SortablePage\SortablePageAsserter.cs:line 18

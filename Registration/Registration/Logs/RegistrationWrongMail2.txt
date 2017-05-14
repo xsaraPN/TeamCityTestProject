@@ -1,0 +1,1 @@
+Registration.RegistrationNegativeCases.RegistrationWrongMail2        C:\Users\Petya\Documents\Visual Studio 2017\Projects\Registration\Registration\bin\Debug            0
